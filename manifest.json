@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Motorcycle Theme",
+  "version": "1.0",
+  "description": "Random motorcycle wallpapers on new tab",
+  "icons": {
+    "16": "images/icon.png",
+    "48": "images/icon.png",
+    "128": "images/icon.png"
+  },
+  "chrome_url_overrides": {
+    "newtab": "popup.html"
+  },
+  "permissions": ["storage"]
+}

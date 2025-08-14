@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-size: cover;       
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.motorun {
+  position: absolute;
+  bottom: 0;
+  transform: scaleX(-1) skewX(20deg) translateX(85px);
+  transition: transform ease 2s;
+}
+
+.search-btn:hover, .search-btn:focus .motorun {
+  transform: scaleX(-1) skewX(10deg) translateX(-65px);
+  opacity: 1;
+}
